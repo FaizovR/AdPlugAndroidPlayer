@@ -1,0 +1,102 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="sample_rate_entries">
+        <item>8000</item>
+        <item>11025</item>
+        <item>12000</item>
+        <item>16000</item>
+        <item>22050</item>
+        <item>24000</item>
+        <item>32000</item>
+        <item>44100</item>
+        <item>24000</item>
+        <item>48000</item>
+    </string-array>
+
+    <string-array name="sample_rate_values">
+        <item>8000</item>
+        <item>11025</item>
+        <item>12000</item>
+        <item>16000</item>
+        <item>22050</item>
+        <item>24000</item>
+        <item>32000</item>
+        <item>44100</item>
+        <item>24000</item>
+        <item>48000</item>
+    </string-array>
+
+    <string-array name="audio_format_entries">
+        <item>8 bits</item>
+        <item>16 bits</item>
+    </string-array>
+
+    <string-array name="audio_format_values">
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="mix_entries">
+        <item>LR</item>
+        <item>L</item>
+        <item>R</item>
+    </string-array>
+
+    <string-array name="mix_values">
+        <item>LR</item>
+        <item>L</item>
+        <item>R</item>
+    </string-array>
+
+    <string-array name="buffers_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="buffers_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="samples_entries">
+        <item>16384</item>
+        <item>32768</item>
+        <item>49152</item>
+        <item>65536</item>
+        <item>81920</item>
+        <item>98304</item>
+        <item>114688</item>
+        <item>131072</item>
+        <item>147456</item>
+        <item>163840</item>
+        <item>180224</item>
+        <item>196608</item>
+        <item>212992</item>
+        <item>229376</item>
+        <item>245760</item>
+        <item>262144</item>
+    </string-array>
+
+    <string-array name="samples_values">
+        <item>16384</item>
+        <item>32768</item>
+        <item>49152</item>
+        <item>65536</item>
+        <item>81920</item>
+        <item>98304</item>
+        <item>114688</item>
+        <item>131072</item>
+        <item>147456</item>
+        <item>163840</item>
+        <item>180224</item>
+        <item>196608</item>
+        <item>212992</item>
+        <item>229376</item>
+        <item>245760</item>
+        <item>262144</item>
+    </string-array>
+</resources>

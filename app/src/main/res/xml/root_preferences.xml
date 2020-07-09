@@ -1,0 +1,53 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <ListPreference
+            app:defaultValue="8000"
+            app:entries="@array/sample_rate_entries"
+            app:entryValues="@array/sample_rate_values"
+            app:key="sample_rate"
+            app:title="@string/sample_rate_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:key="format"
+            app:entries="@array/audio_format_entries"
+            app:entryValues="@array/audio_format_values"
+            app:title="@string/audio_format_title"
+            app:useSimpleSummaryProvider="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="channels"
+            app:title="@string/channels_title"
+            app:summaryOff="@string/channels_off"
+            app:summaryOn="@string/channels_on" />
+
+        <ListPreference
+            app:dependency="channels"
+            app:key="mix"
+            app:defaultValue="LR"
+            app:entries="@array/mix_entries"
+            app:entryValues="@array/mix_values"
+            app:title="@string/mix_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="1"
+            app:entries="@array/buffers_entries"
+            app:entryValues="@array/buffers_values"
+            app:key="buffers"
+            app:title="@string/buffers_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="262144"
+            app:entries="@array/samples_entries"
+            app:entryValues="@array/samples_values"
+            app:key="samples"
+            app:title="@string/samples_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

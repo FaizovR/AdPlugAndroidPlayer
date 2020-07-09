@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AdPlug Player</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Play"><![CDATA[<Play>]]></string>
+    <string name="Pause"><![CDATA[<Pause>]]></string>
+    <string name="Stop"><![CDATA[<Stop>]]></string>
+    <string name="directory">Directory C:\\ADLGOLD</string>
+    <string name="currently_playing">Currently playing:</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Player Settings</string>
+
+    <!-- Player Preferences -->
+    <string name="sample_rate_title">Sample rate</string>
+
+    <string name="audio_format_title">Audio format</string>
+    <string name="audio_format_on">16 bits</string>
+    <string name="audio_format_off">8 bits</string>
+
+    <string name="channels_title">Channels</string>
+    <string name="channels_on">Mono</string>
+    <string name="channels_off">Stereo</string>
+
+    <string name="mix_title">Mix</string>
+    <string name="buffers_title">Buffers</string>
+    <string name="samples_title">Channels</string>
+
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
